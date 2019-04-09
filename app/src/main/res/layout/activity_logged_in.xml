@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/only_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                android:paddingRight="100dp">
+
+                <ImageView
+                    android:id="@+id/postItNewFile"
+                    android:layout_width="220dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:rotation="90"
+                    app:srcCompat="@drawable/amarillo_uno" />
+
+                <ImageView
+                    android:id="@+id/imageOrange"
+                    android:layout_width="220dp"
+                    android:layout_height="30dp"
+                    android:rotation="90"
+                    app:srcCompat="@drawable/amarillo_dos" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="115dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:id="@+id/textViewOpenFile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:rotation="90"
+                        android:text="@string/TextOpenFile"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="10sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="77dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:id="@+id/textViewNewFile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:rotation="90"
+                        android:text="@string/TextNewFile"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="10sp" />
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageViewNotebook"
+            android:layout_width="395dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/only_notebook" />
+
+        <TextView
+            android:id="@+id/TextViewTitleLoggedIn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/TitleApp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="36sp"
+            tools:text="@string/TitleApp" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="246dp"
+            android:layout_height="367dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="33dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="15dp">
+
+            <EditText
+                android:id="@+id/editTextWrite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:ems="11"
+                android:inputType="textMultiLine" />
+        </ScrollView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="170dp"
+            android:paddingTop="60dp">
+
+            <ImageView
+                android:id="@+id/imagePostItSearch"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/azul_uno" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="160dp"
+            android:paddingTop="100dp">
+
+            <ImageView
+                android:id="@+id/imageSaveFile"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/azul_tres" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="300dp">
+
+            <ImageView
+                android:id="@+id/imageViewGoBack"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/naranja" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageViewBook"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/notebook_simple" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="260dp"
+            android:paddingTop="67dp">
+
+            <TextView
+                android:id="@+id/textGoToRhymeSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SearchRhymes"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                android:textSize="10sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="265dp"
+            android:paddingTop="109dp">
+
+            <TextView
+                android:id="@+id/textSaveFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SaveFile"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="10sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewArrowBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="263dp"
+                android:layout_marginTop="303dp"
+                app:srcCompat="@drawable/go_back" />
+
+            <TextView
+                android:id="@+id/textGoBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="282dp"
+                android:layout_marginTop="308dp"
+                android:text="@string/goBack"
+                android:textSize="10sp" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

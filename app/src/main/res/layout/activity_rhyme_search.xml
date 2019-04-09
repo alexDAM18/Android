@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueCool"
+    android:orientation="vertical"
+    tools:context=".RhymeSearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="@string/TextSearchRhyme" />
+
+        <SearchView
+            android:id="@+id/SearchViewWord"
+            android:layout_width="222dp"
+            android:layout_height="30dp"
+            android:inputType="text">
+
+        </SearchView>
+
+        <Button
+            android:id="@+id/ButtonSearchWord"
+            android:layout_width="71dp"
+            android:layout_height="35dp"
+            android:background="@drawable/mybutton"
+            android:text="@string/SearchButton"
+            android:textColor="@color/browser_actions_bg_grey" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewSearchWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="@string/TitleWords" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/searchedWordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/archiv" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="true"
+                android:fillViewport="true"
+                android:paddingLeft="80dp"
+                android:paddingTop="14dp"
+                android:paddingRight="100dp"
+                android:paddingBottom="13dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textOneSyllable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/oneSyllable" />
+
+                    <TextView
+                        android:id="@+id/textOneSyllableWord"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textTwoSyllables"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/twoSyllables" />
+
+                    <TextView
+                        android:id="@+id/textTwoSyllableWord"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textThreeSyllables"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/threeSyllables" />
+
+                    <TextView
+                        android:id="@+id/textThreeSyllableWord"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textFourSyllables"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/fourSyllables" />
+
+                    <TextView
+                        android:id="@+id/textFourSyllableWord"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

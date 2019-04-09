@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Rhymin</string>
+    <string name="Title">Rhymin</string>
+    <string name="userName">User</string>
+    <string name="password">Password</string>
+    <string name="user_name">Usuario</string>
+    <string name="passw">Contraseña</string>
+    <string name="LoginText">Log In</string>
+    <string name="RegisterText">Regístrate Aquí</string>
+    <string name="RegistraText">Crea tu cuenta</string>
+    <string name="RegisterPass">Contraseña</string>
+    <string name="RegisterUser">Nombre de Usuario</string>
+    <string name="RegisterMail">E-mail</string>
+    <string name="RegisterTextButton">Registrarse</string>
+    <string name="LogoText">R</string>
+    <string name="NewFile">New File</string>
+    <string name="OpenFile">Open File</string>
+    <string name="TitleApp">Rhymin</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="TextNewFile">New File</string>
+    <string name="TextOpenFile">Open File</string>
+    <string name="WriteHereYourSong">Write your song here</string>
+    <string name="SearchRhymes">Search Rhymes</string>
+    <string name="TextSearchRhyme">Word: </string>
+    <string name="SearchButton">Rhyme</string>
+    <string name="TitleWords">Words that ryhme with: </string>
+    <string name="oneSyllable">1 Syllable:</string>
+    <string name="twoSyllables">2 Syllables:</string>
+    <string name="threeSyllables">3 Syllables:</string>
+    <string name="fourSyllables">4 Syllables:</string>
+    <string name="NewFile2">New File</string>
+    <string name="goBack">Go Back</string>
+    <string name="SaveFile">Save File</string>
+    <string name="songsList">Your Compositions</string>
+</resources>

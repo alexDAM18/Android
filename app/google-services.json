@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "318917268791",
+    "firebase_url": "https://rhymin.firebaseio.com",
+    "project_id": "rhymin",
+    "storage_bucket": "rhymin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318917268791:android:f8125e9362c26604",
+        "android_client_info": {
+          "package_name": "com.example_alex.rhymin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318917268791-k067c6056tua3mnru16h6fg2pve731b0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example_alex.rhymin",
+            "certificate_hash": "966184a04fcfbe74119a31903a223896c22028f0"
+          }
+        },
+        {
+          "client_id": "318917268791-g4kjlt7m8gbtinvju49feq24bnfpos9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBioBG9PHXbzbDa1uWHZ0ykZu7Ys-H2qVI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318917268791-g4kjlt7m8gbtinvju49feq24bnfpos9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
